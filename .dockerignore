@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# Frontend (built in image)
+frontend/node_modules
+frontend/dist
+
+# Backend
+backend/app/data
+backend/app/__pycache__
+backend/**/__pycache__
+backend/**/*.pyc
+.venv
+venv
+env
+
+# IDE / OS
+.idea
+.vscode
+*.swp
+.DS_Store
+
+# Tests / docs (optional, reduce image context)
+tests
+*.md
+!README.md
