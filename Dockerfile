@@ -4,7 +4,7 @@ FROM node:20-bookworm-slim AS frontend
 WORKDIR /app
 
 COPY frontend/package.json frontend/package-lock.json ./
-RUN npm ci --omit=dev
+RUN npm ci
 COPY frontend/ ./
 RUN npm run build
 
